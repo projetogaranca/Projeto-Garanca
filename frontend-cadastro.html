@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Projeto Garança - Cadastro</title>
+	<link rel="stylesheet" type="text/css" href="Projeto Garança.css">
+	<link href="https://db.onlinewebfonts.com/c/b82329475307e0380dc1ea23f0c35266?family=adineue+PRO" rel="stylesheet">
+</head>
+<body>
+	<h1>PROJETO GARANÇA</h1>
+	<br>
+		<div class="nome">
+			<form onsubmit="enviarFormulario(event)" id="form">
+				<label>Nome de Guerra</label>
+					<br>
+				<input type="text" name="nome-de-guerra" placeholder="SEU NOME AQUI">
+		</div>
+	<br>
+		<div class="email">
+				<label>E-mail</label>
+					<br>
+				<input type="e-mail" name="e-mail" placeholder="SEU EMAIL AQUI">
+		</div>
+	<br>
+		<div class="serie">
+			<label>Série</label>
+				<br>
+			<select name="serie">
+				<option value="sexto">6°</option>
+				<option value="setimo">7°</option>
+				<option value="oitavo">8°</option>
+				<option value="nono">9°</option>
+				<option value="primeiro">1°</option>
+				<option value="segundo">2°</option>
+				<option value="terceiro">3°</option>
+			</select>
+		</div>
+	<br>
+
+		<div class="quero-ser">
+			<label> Quero ser: </label>
+		</div>
+		<div>
+				<input type="checkbox" name="monitor"> Monitor
+			<br>
+				<input type="checkbox" name="monitorado"> Monitorado
+		</div>
+	<br>
+		<div class="ajuda">
+			<label> Matérias nas quais quero ajuda: </label>
+		</div>
+		<div>
+			<input type = "checkbox" name="materias-mentorado" value = "mat"> Matemática
+			<br>
+			<input type = "checkbox" name="materias-mentorado" value = "fis"> Física
+			<br>
+			<input type = "checkbox" name="materias-mentorado" value = "qui"> Química
+			<br>
+			<input type = "checkbox" name="materias-mentorado" value = "bio"> Biologia
+			<br>
+			<input type = "checkbox" name="materias-mentorado" value = "cn"> Ciências Naturais
+			<br>
+			<input type = "checkbox" name="materias-mentorado" value = "port"> Português
+			<br>
+			<input type = "checkbox" name="materias-mentorado" value = "red"> Redação
+			<br>			
+			<input type = "checkbox" name="materias-mentorado" value = "art"> Artes
+			<br>
+			<input type = "checkbox" name="materias-mentorado" value = "ing"> Inglês
+			<br>
+			<input type = "checkbox" name="materias-mentorado" value = "hist"> História
+			<br>
+			<input type = "checkbox" name="materias-mentorado" value = "geo"> Geografia
+			<br>
+			<input type = "checkbox" name="materias-mentorado" value = "soc"> Sociologia
+			<br>
+			<input type = "checkbox" name="materias-mentorado" value = "fil"> Filosofia
+		</div>
+	<br>
+		<div class="help">
+			<label> Matérias nas quais quero ajudar:</label>
+			<br>
+		</div>
+		<div name="materias-mentor">
+			<input type = "checkbox" name="materias-mentor" value = "mat"> Matemática
+			<br>
+			<input type = "checkbox" name="materias-mentor" value = "fis"> Física
+			<br>
+			<input type = "checkbox" name="materias-mentor" value = "qui"> Química
+			<br>
+			<input type = "checkbox" name="materias-mentor" value = "bio"> Biologia
+			<br>
+			<input type = "checkbox" name="materias-mentor" value = "cn"> Ciências Naturais
+			<br>
+			<input type = "checkbox" name="materias-mentor" value = "port"> Português
+			<br>
+			<input type = "checkbox" name="materias-mentor" value = "red"> Redação
+			<br>			
+			<input type = "checkbox" name="materias-mentor" value = "art"> Artes
+			<br>
+			<input type = "checkbox" name="materias-mentor" value = "ing"> Inglês
+			<br>
+			<input type = "checkbox" name="materias-mentor" value = "hist"> História
+			<br>
+			<input type = "checkbox" name="materias-mentor" value = "geo"> Geografia
+			<br>
+			<input type = "checkbox" name="materias-mentor" value = "soc"> Sociologia
+			<br>
+			<input type = "checkbox" name="materias-mentor" value = "fil"> Filosofia
+		</div>
+	<br>
+		<div class="preferencias">
+			<h2>PREFERÊNCIAS</h2>
+		</div>
+	<br>
+		<div class="modo-de-ensino">
+			<label>Modo de ensino:</label>
+	<br>
+				<select name="modo-de-ensino">
+					<option value="online">Online</option>
+					<option value="presencial">Presencial</option>
+				</select>
+	<br>
+				<select name="modalidade">
+					<option value="em-grupo">Em grupo</option>
+					<option value="em-duplas">Em duplas</option>
+				</select>
+		</div>
+	<br>
+		<div class="disponibilidade">
+			<label>Disponibilidade:</label>
+	<br>
+		</div>
+		<div>
+			<input type="checkbox" name="dias-disponiveis" value="seg">Segunda-feira
+	<br>
+			<input type="checkbox" name="dias-disponiveis" value="ter">Terça-feira
+	<br>	
+			<input type="checkbox" name="dias-disponiveis" value="qua">Quarta-feira
+	<br>	
+			<input type="checkbox" name="dias-disponiveis" value="qui">Quinta-feira
+	<br>	
+			<input type="checkbox" name="dias-disponiveis" value="sex">Sexta-feira
+	<br>
+			<input type="checkbox" name="dias-disponiveis" value="sab">Sábado
+	<br>	
+			<input type="checkbox" name="dias-disponiveis" value="dom">Domingo
+	<br>
+	<br>
+		<div class="SENHA">
+			<h2>SENHA</h2>
+		</div>
+	<br>
+		<div class="senha">
+				<label>Senha</label>
+					<br>
+				<input type="password" name="senha" placeholder="SUA SENHA AQUI">
+	<br>
+				<label>Confirmação da senha</label>
+					<br>
+				<input type="password" name="confirmação-da-senha" placeholder="SUA SENHA AQUI">
+				<br>
+				<br>
+				<button type = "submit" class="botao">Entrar</button>
+			</form>
+		</div>
+	
+	<script src=".\script.js"></script>
+</body>
+</html>

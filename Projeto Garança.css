@@ -1,0 +1,90 @@
+body{
+	font-family: adineue PRO;
+	text-align: center;
+	background-color: white;
+
+}
+h1{
+	background-color: darkred;
+	padding: 30px;
+	color: white;
+	width: 100%;
+	box-align: center;
+	position: fixed;
+	top: 0px;
+	margin: 0px;
+	font-size: 40px;
+}
+.nome{
+	margin-top: 130px;
+	color: darkred;
+	width: 30%;
+	margin: auto;
+	margin-top: 150px;
+}
+.email{
+	color: darkred;
+	width: 30%;
+	margin: auto;
+}
+.serie{
+	color: darkred;
+}
+.quero-ser{
+	color: darkred;
+}
+.ajuda{
+	color: darkred;
+}
+.help{
+	color: darkred;
+}
+.modo-de-ensino{
+	color: darkred;
+}
+.disponibilidade{
+	color:darkred;
+}
+.dias-da-semana{
+
+}
+h2{
+	background-color: darkred;
+	padding: 15px;
+	color: white;
+	width: 80%;
+	box-align: center;
+	margin: auto;
+	border-radius: 15px;
+}
+.senha{
+	color: darkred;
+	width: 30%;
+	margin: auto;
+}
+button{
+	background-color: darkred;
+	color: white;
+	border-color: darkred;
+	font-family: adineue PRO;
+}
+.botao:hover{
+	background-color:rgb(26, 133, 199);
+	color:white;
+	border-color: rgb(26, 133, 199);
+}
+.botao{
+	margin-bottom: 150px;
+}
+.botao-link{
+	color: white;
+	text-decoration: none;
+}
+.botao-login:hover{
+	background-color:rgb(26, 133, 199);
+	color:white;
+	border-color: rgb(26, 133, 199);
+}
+.novo-login{
+	margin-top: 30px;
+}
