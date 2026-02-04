@@ -20,6 +20,16 @@ router.post('/mentorado', async (req, res) => {
     res.status(201).send(mentorado);
 });
 
+// Rota para login
+router.post('/login', async (req, res) => {
+    const { nome, senha } = req.body;
+    let usuario = await Mentor.findOne({ nome: nome, senha: senha }) || await Mentorado.findOne({ nome: nome, senha: senha });
+    if (!usuario) {
+        return res.status(404).send({ error: 'Usuário não encontrado ou senha incorreta' });
+    }
+    usuario = usuario.jsonify();
+    res.status(200).send(usuario);});
+
 // Rotas para o pareamento
 router.get('/:id', async (req, res) => {
     const usuario = await Mentor.findById(req.params.id) || await Mentorado.findById(req.params.id);
